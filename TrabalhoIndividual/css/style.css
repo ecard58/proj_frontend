@@ -14,12 +14,34 @@ h1 {
   color: #e63946;
 }
 
+h2 {
+  font-size: 40px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  padding: 16px;
+}
+
 p {
   font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  padding: 16px;
 }
 
 body {
   background-color: #457b9d;
+}
+
+img {
+  margin: 10px;
 }
 
 .sticky {
@@ -32,7 +54,7 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
-.navbar {
+.navbar1 a {
   text-decoration: none;
   padding: 10px 20px;
   color: antiquewhite;
@@ -41,8 +63,18 @@ body {
   font-weight: bold;
 }
 
+.navbar a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #e63946;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .navbar ul li {
   position: relative;
+  padding-top: 8px;
 }
 
 .navbar ul li a:hover {
@@ -71,9 +103,40 @@ body {
 .static {
   background-color: #a8dadc;
   width: 150px;
-  height: 300px;
+  height: 350px;
   text-align: center;
   float: left;
   margin: 8px;
   border-radius: 5px;
+}
+
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.centralizar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  text-align: center;
+  font-size: 12px;
+}
+
+.divisoria {
+  text-align: right;
+  font-size: 12px;
+}
+
+.navbar3 a {
+  text-decoration: none;
+  padding: 10px 20px;
+  color: #e63946;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: bold;
 }
